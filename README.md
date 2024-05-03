@@ -1,2 +1,2 @@
 # FinApp
-University Project
+Приложение для учета финансов.

@@ -38,3 +38,9 @@
 - Visual Studio Code [doc](https://code.visualstudio.com/docs)
 ### Share, Run, and Verify Applications
 - Doker [doc](https://docs.docker.com/?_gl=1*1oyux9e*_ga*NTU5OTQ5NTA3LjE3MTQ5MTY4NjU.*_ga_XJWPQMJYHQ*MTcxNDkxNjg2NC4xLjEuMTcxNDkxNjg4MS40My4wLjA.)
+
+# Быстрый старт
+### Для того, чтобы запустить проект вам необходимо:
+! (Тут все должно быть в докер контейнере, разобраться как и обернуть все в него и его уже собирать только) !
+// - Установить [Angular](https://angular-doc.ru/guide/setup-local)
+// - Установить 

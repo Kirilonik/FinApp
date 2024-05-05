@@ -1,0 +1,41 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "all",
+	"editor.detectIndentation": false,
+	"javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+	"javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+	"typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+	"javascript.referencesCodeLens.showOnAllFunctions": true,
+	"typescript.referencesCodeLens.showOnAllFunctions": true,
+	"javascript.referencesCodeLens.enabled": true,
+	"typescript.referencesCodeLens.enabled": true,
+	"typescript.implementationsCodeLens.enabled": true,
+	"javascript.preferences.quoteStyle": "double",
+	"typescript.preferences.quoteStyle": "double",
+	"files.trimTrailingWhitespace": true,
+	"autoBarrel.quoteStyle": "Double",
+	"cSpell.language": "en,ru",
+    "files.exclude": {
+		"node_modules/": true,
+		"dist/": true,
+		".angular/": true,
+    },
+    "explorer.fileNesting.patterns": {
+		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+		"*.jsx": "${capture}.js",
+		"*.tsx": "${capture}.ts",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock",
+		"*.component.ts": "${capture}.component.html, ${capture}.component.css, ${capture}.component.scss",
+	},
+	"editor.bracketPairColorization.enabled": false,
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.enabled": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	}
+}

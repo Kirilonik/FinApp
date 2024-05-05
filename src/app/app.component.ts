@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: "app-root",
-  standalone: true,
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"],
+	selector: "app-root",
+	standalone: true,
+	templateUrl: "./app.component.html",
+	styleUrls: ["./app.component.css"],
 })
-export class AppComponent 
+export class AppComponent
 {
-  title = 'default';
+	//   title = 'FinApp';
 }

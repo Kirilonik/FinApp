@@ -32,11 +32,9 @@
 ### Frontend
 - Unity [doc](https://docs.unity.com/)
 ### Backend
-- Node.js [doc](https://nodejs.org/docs/latest/api/)
+- ASP.NET [doc]([https://nodejs.org/docs/latest/api/](https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-8.0))
 ### DataBase
 - PostgreSql [doc](https://www.postgresql.org/docs/current/)
-### WebServer
-- Nginx [doc](https://nginx.org/ru/docs/)
 ### Code Editors
 - Visual Studio Code [doc](https://code.visualstudio.com/docs)
 ### Share, Run, and Verify Applications
@@ -44,9 +42,8 @@
 
 # Быстрый старт
 ### Для того, чтобы запустить проект вам необходимо:
-! (Тут все должно быть в докер контейнере, разобраться как и обернуть все в него и его уже собирать только) !
-Но пока делаем так
-- > npm install --force (Устанавливаем необходимые пакеты ноды)
-- > npm start (Для сборки\запуска локально)
-- // - Установить [Angular](https://angular-doc.ru/guide/setup-local)
-- // - Установить
+Backend:
+-> docker-compose up -d
+
+Frontend:
+Запуск проекта через UnityHub

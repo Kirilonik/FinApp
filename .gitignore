@@ -53,3 +53,6 @@ testem.log
 Thumbs.db
 report.20201127.155709.29136.0.001.json
 *.orig
+
+#Unity
+*Cache*

@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\AppManager.cs" />
     <Compile Include="Assets\Scripts\StaticUserData.cs" />
     <Compile Include="Assets\Scripts\RegistrationScene\RegistrationScene.cs" />
+    <Compile Include="Assets\Scripts\MainScene\MainScene.cs" />
+    <Compile Include="Assets\Scripts\AddExpence\AddExpence.cs" />
     <Compile Include="Assets\Scripts\LoginScene\LoginScene.cs" />
     <Compile Include="Assets\Scripts\EnumsHolder.cs" />
   </ItemGroup>

@@ -376,9 +376,11 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/AddExpence/AddExpence.cs"
 "Assets/Scripts/AppManager.cs"
 "Assets/Scripts/EnumsHolder.cs"
 "Assets/Scripts/LoginScene/LoginScene.cs"
+"Assets/Scripts/MainScene/MainScene.cs"
 "Assets/Scripts/RegistrationScene/RegistrationScene.cs"
 "Assets/Scripts/StaticUserData.cs"
 -langversion:9.0

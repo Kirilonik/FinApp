@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AddExpenceScene.unity
     guid: d21b8739309d87d4ca94819ec6520239
+  - enabled: 1
+    path: Assets/Scenes/AddCategoryScene.unity
+    guid: c8faf294a7225fb4ea5e3b455d36eae9
   m_configObjects: {}

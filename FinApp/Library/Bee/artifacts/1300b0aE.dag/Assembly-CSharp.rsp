@@ -123,6 +123,8 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll"
+-r:"Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll"
 -r:"D:/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -330,6 +332,8 @@
 -r:"D:/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/NativeGallery.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/NativeGallery.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
@@ -376,6 +380,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/AddCategoryScene/AddCategory.cs"
 "Assets/Scripts/AddExpence/AddExpence.cs"
 "Assets/Scripts/AppManager.cs"
 "Assets/Scripts/EnumsHolder.cs"
@@ -383,6 +388,18 @@
 "Assets/Scripts/MainScene/MainScene.cs"
 "Assets/Scripts/RegistrationScene/RegistrationScene.cs"
 "Assets/Scripts/StaticUserData.cs"
+"Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs"
+"Assets/StandaloneFileBrowser/Sample/BasicSample.cs"
+"Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs"
+"Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs"
+"Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs"
+"Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs"
+"Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs"
+"Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs"
+"Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs"
+"Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs"
+"Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs"
+"Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs"
 -langversion:9.0
 
 /deterministic

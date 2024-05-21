@@ -6,10 +6,12 @@ using TMPro;
 public class RegistrationScene : MonoBehaviour
 {
     public TextMeshProUGUI nameTmp;
+    public TextMeshProUGUI secondNameTmp;
     public TextMeshProUGUI lastNameTmp;
     public TextMeshProUGUI emailTmp;
     public TextMeshProUGUI loginTmp;
     public TextMeshProUGUI passwordTmp;
+    public TMP_InputField passwordTmp_input;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +28,11 @@ public class RegistrationScene : MonoBehaviour
     {
         StaticUserData.SaveUserData(
             this.nameTmp.text,
+            this.secondNameTmp.text,
             this.lastNameTmp.text,
             this.emailTmp.text,
             this.loginTmp.text,
-            this.passwordTmp.text
+            this.passwordTmp_input.text
             );
     }
 }

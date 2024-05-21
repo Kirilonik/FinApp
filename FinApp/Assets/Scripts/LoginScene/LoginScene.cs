@@ -8,13 +8,15 @@ public class LoginScene : MonoBehaviour
 {
     public TextMeshProUGUI loginTmp;
     public TextMeshProUGUI passwordTmp;
+    public TMP_InputField passwordTmp_input;
+    public GameObject errorLoginPassword;
     public Button loginBtn;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        StaticUserData.LoadUserData();
     }
 
     // Update is called once per frame
@@ -28,5 +30,43 @@ public class LoginScene : MonoBehaviour
         {
             loginBtn.interactable = false;
         }
+    }
+
+    public void OnLoginClick()
+    {
+        if (this.TryLogin())
+        {
+            this.errorLoginPassword.SetActive(false);
+            AppManager.instance.ChangeSceneTo("MainScene");
+        }
+        else
+        {
+            this.errorLoginPassword.SetActive(true);
+            this.ClearFields();
+        }
+    }
+
+    private bool TryLogin()
+    {
+        if(StaticUserData.User == null)
+        {
+            return false;
+        }
+        if (StaticUserData.User.Login == loginTmp.text
+            &&
+            StaticUserData.User.Password == passwordTmp_input.text)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    private void ClearFields()
+    {
+        this.loginTmp.SetText("");
+        this.passwordTmp.SetText("");
     }
 }

@@ -26,7 +26,7 @@ public class AddCategory : MonoBehaviour
         if (nameTmp.text.Length > 0)
         {
             var category = new ExpenceCategory();
-            category.Name = nameTmp.text;
+            category.Name = nameTmp.text.Remove(nameTmp.text.Length - 1, 1);
             category.Type = typeDrp.value == 0 ? CategoryType.Income : CategoryType.Expence; 
 
             StaticUserData.AddUserCategory(category);

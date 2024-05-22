@@ -13,18 +13,63 @@ public class MainScene : MonoBehaviour
     public bool isExpensesDropdownOpen;
     public TMP_Text inputArrow;
     public TMP_Text expensesArrow;
+    public TextMeshProUGUI amount;
+    public Transform ExpencesScrollViewContent;
+    public GameObject ExpencePrefab;
+    public Transform IncomeScrollViewContent;
 
     // Start is called before the first frame update
     void Start()
     {
         isInputDropdownOpen = false;
         isExpensesDropdownOpen = false;
+
+        UpdateExpences();
+    }
+
+    void UpdateExpences()
+    {
+        foreach (Transform child in ExpencesScrollViewContent)
+        {
+            Destroy(child.gameObject);
+        }
+        foreach (Transform child in IncomeScrollViewContent)
+        {
+            Destroy(child.gameObject);
+        }
+
+        int i = 0;
+        foreach (var expence in StaticUserData.User.Expences)
+        {
+            if (!expence.IsIncome)
+            {
+                var newItem = Instantiate(ExpencePrefab, ExpencesScrollViewContent);
+                if (newItem.TryGetComponent<ExpencesScript>(out var expencesScript))
+                {
+                    expencesScript.SetComment(expence.Comment);
+                    expencesScript.SetAmount(expence.Amount);
+                    expencesScript.SetCategory(expence.Category.Name);
+                }
+
+                i++;
+            }
+            else
+            {
+                var newItem = Instantiate(ExpencePrefab, IncomeScrollViewContent);
+                if (newItem.TryGetComponent<ExpencesScript>(out var expencesScript))
+                {
+                    expencesScript.SetComment(expence.Comment);
+                    expencesScript.SetAmount(expence.Amount);
+                    expencesScript.SetCategory(expence.Category.Name);
+                }
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        amount.text = StaticUserData.User.Money.ToString("0.00");
     }
 
     public void OnInputDropdownBtnClick()

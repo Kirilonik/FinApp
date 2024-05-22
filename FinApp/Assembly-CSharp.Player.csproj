@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AppManager.cs" />
     <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileTextMultiple.cs" />
+    <Compile Include="Assets\Scripts\MainScene\ExpencesScript.cs" />
     <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs" />
     <Compile Include="Assets\Scripts\StaticUserData.cs" />
     <Compile Include="Assets\Scripts\RegistrationScene\RegistrationScene.cs" />

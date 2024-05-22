@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -139, y: -24.2}
+  m_AnchoredPosition: {x: 140, y: 21}
   m_SizeDelta: {x: 216.56, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2990263882354084128
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $0 of $100
+  m_text: 100,5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -92,14 +92,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 6602136907919581809}
   - component: {fileID: 8524862954986941085}
   - component: {fileID: 8781564079540215328}
+  - component: {fileID: 8251326065644595840}
   m_Layer: 5
   m_Name: Expense
   m_TagString: Untagged
@@ -212,6 +213,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8251326065644595840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2991408636463242545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642a50e766f5162448a4d2655530007e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  commentTmp: {fileID: 3688422589492605127}
+  amountTmp: {fileID: 5360574729042839128}
+  categoryTmp: {fileID: 1931823700701627290}
 --- !u!1 &5857790223343247980
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +240,7 @@ GameObject:
   - component: {fileID: 3659820792103071145}
   - component: {fileID: 1931823700701627290}
   m_Layer: 5
-  m_Name: Left
+  m_Name: Category
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,7 +262,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 232, y: 7.9}
+  m_AnchoredPosition: {x: 140, y: -39}
   m_SizeDelta: {x: 216.56, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3659820792103071145
@@ -277,7 +293,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $100 left
+  m_text: "\u0418\u043C\u044F \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0438"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -304,14 +320,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -358,7 +374,7 @@ GameObject:
   - component: {fileID: 2017630411490355057}
   - component: {fileID: 3688422589492605127}
   m_Layer: 5
-  m_Name: Category
+  m_Name: Comment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -380,8 +396,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -141, y: 14.6}
-  m_SizeDelta: {x: 216.56, y: 50}
+  m_AnchoredPosition: {x: -110.51, y: -4.8}
+  m_SizeDelta: {x: 277.54, y: 88.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2017630411490355057
 CanvasRenderer:
@@ -411,7 +427,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Auto & transport
+  m_text: CommentCommentCommentCommentCommentCommentComment
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

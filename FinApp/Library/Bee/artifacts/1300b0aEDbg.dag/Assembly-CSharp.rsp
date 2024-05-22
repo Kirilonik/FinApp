@@ -386,6 +386,7 @@
 "Assets/Scripts/AppManager.cs"
 "Assets/Scripts/EnumsHolder.cs"
 "Assets/Scripts/LoginScene/LoginScene.cs"
+"Assets/Scripts/MainScene/ExpencesScript.cs"
 "Assets/Scripts/MainScene/MainScene.cs"
 "Assets/Scripts/RegistrationScene/RegistrationScene.cs"
 "Assets/Scripts/StaticUserData.cs"

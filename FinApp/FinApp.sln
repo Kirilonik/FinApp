@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeGallery.Editor", "Nat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeGallery.Runtime", "NativeGallery.Runtime.csproj", "{18B0E4E4-0994-A679-F73C-2A6C19DCA2E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{B3B6D150-445F-F93E-E905-201748EBA603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeGallery.Runtime", "NativeGallery.Runtime.Player.csproj", "{08FF44B5-AE22-5434-BE5C-40974694A628}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{18B0E4E4-0994-A679-F73C-2A6C19DCA2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18B0E4E4-0994-A679-F73C-2A6C19DCA2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18B0E4E4-0994-A679-F73C-2A6C19DCA2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B6D150-445F-F93E-E905-201748EBA603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B6D150-445F-F93E-E905-201748EBA603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B6D150-445F-F93E-E905-201748EBA603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B6D150-445F-F93E-E905-201748EBA603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FF44B5-AE22-5434-BE5C-40974694A628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FF44B5-AE22-5434-BE5C-40974694A628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FF44B5-AE22-5434-BE5C-40974694A628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FF44B5-AE22-5434-BE5C-40974694A628}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

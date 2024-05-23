@@ -10,6 +10,7 @@ public class AddCategory : MonoBehaviour
 {
     public TextMeshProUGUI nameTmp;
     public TMP_Dropdown typeDrp;
+    public Button addBtn;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,14 @@ public class AddCategory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (nameTmp.text.Length > 1)
+        {
+            addBtn.interactable = true;
+        }
+        else
+        {
+            addBtn.interactable = false;
+        }
     }
 
     public void OnAddCategotyClick()

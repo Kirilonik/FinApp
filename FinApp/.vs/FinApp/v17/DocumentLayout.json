@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Hasee\\FinApp2\\FinApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B3B6D150-445F-F93E-E905-201748EBA603}|Assembly-CSharp.Player.csproj|c:\\users\\hasee\\finapp2\\finapp\\assets\\scripts\\mainscene\\mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B6D150-445F-F93E-E905-201748EBA603}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\mainscene\\mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3B6D150-445F-F93E-E905-201748EBA603}|Assembly-CSharp.Player.csproj|c:\\users\\hasee\\finapp2\\finapp\\assets\\scripts\\addcategoryscene\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B6D150-445F-F93E-E905-201748EBA603}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\addcategoryscene\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3B6D150-445F-F93E-E905-201748EBA603}|Assembly-CSharp.Player.csproj|C:\\Users\\Hasee\\FinApp2\\FinApp\\assets\\scripts\\addexpence\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B6D150-445F-F93E-E905-201748EBA603}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\addexpence\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B6D150-445F-F93E-E905-201748EBA603}|Assembly-CSharp.Player.csproj|c:\\users\\hasee\\finapp2\\finapp\\assets\\scripts\\mainscene\\mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B6D150-445F-F93E-E905-201748EBA603}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\mainscene\\mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3B6D150-445F-F93E-E905-201748EBA603}|Assembly-CSharp.Player.csproj|C:\\Users\\Hasee\\FinApp2\\FinApp\\assets\\scripts\\staticuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,20 +38,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddCategory.cs",
               "DocumentMoniker": "C:\\Users\\Hasee\\FinApp2\\FinApp\\Assets\\Scripts\\AddCategoryScene\\AddCategory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AddCategoryScene\\AddCategory.cs",
               "ToolTip": "C:\\Users\\Hasee\\FinApp2\\FinApp\\Assets\\Scripts\\AddCategoryScene\\AddCategory.cs",
               "RelativeToolTip": "Assets\\Scripts\\AddCategoryScene\\AddCategory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T11:15:29.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Hasee\\FinApp2\\FinApp\\Assets\\Scripts\\AddExpence\\Category.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AddExpence\\Category.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ExpenceScript.cs",
               "DocumentMoniker": "C:\\Users\\Hasee\\FinApp2\\FinApp\\Assets\\Scripts\\MainScene\\ExpenceScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainScene\\ExpenceScript.cs",
@@ -75,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddExpence.cs",
               "DocumentMoniker": "C:\\Users\\Hasee\\FinApp2\\FinApp\\Assets\\Scripts\\AddExpence\\AddExpence.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AddExpence\\AddExpence.cs",
@@ -83,8 +83,7 @@
               "RelativeToolTip": "Assets\\Scripts\\AddExpence\\AddExpence.cs",
               "ViewState": "AQIAADkAAAAAAAAAAAAYwEwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T22:40:06.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T22:40:06.482Z"
             },
             {
               "$type": "Document",
@@ -106,13 +105,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainScene.cs",
               "DocumentMoniker": "C:\\Users\\Hasee\\FinApp2\\FinApp\\Assets\\Scripts\\MainScene\\MainScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainScene\\MainScene.cs",
               "ToolTip": "C:\\Users\\Hasee\\FinApp2\\FinApp\\Assets\\Scripts\\MainScene\\MainScene.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainScene\\MainScene.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAIwCYAAAAJAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAYwFcAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T22:40:23.467Z",
               "EditorCaption": ""

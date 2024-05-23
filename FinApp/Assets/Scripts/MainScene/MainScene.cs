@@ -17,6 +17,8 @@ public class MainScene : MonoBehaviour
     public Transform ExpencesScrollViewContent;
     public GameObject ExpencePrefab;
     public Transform IncomeScrollViewContent;
+    public TextMeshProUGUI incomeAmountTmp;
+    public TextMeshProUGUI expenceAmountTmp;
 
     // Start is called before the first frame update
     void Start()
@@ -70,6 +72,20 @@ public class MainScene : MonoBehaviour
     void Update()
     {
         amount.text = StaticUserData.User.Money.ToString("0.00");
+
+        float income = 0f;
+        float expences = 0f;
+
+        foreach (var expence in StaticUserData.User.Expences)
+        {
+            if (expence.IsIncome)
+                income += expence.Amount;
+            else
+                expences += expence.Amount;
+        }
+
+        incomeAmountTmp.text = income.ToString();
+        expenceAmountTmp.text = expences.ToString();
     }
 
     public void OnInputDropdownBtnClick()
